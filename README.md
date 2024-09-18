@@ -85,6 +85,7 @@ AI Linux Assistant is a Python-based tool that uses OpenAI's API to assist users
       ```bash
       linuxAI
       ```
+![Screenshot 2024-09-18 152221](https://github.com/user-attachments/assets/47d4aba6-0e5a-4b28-b3f6-33c78121c77c)
 
 ## Contributing
 
