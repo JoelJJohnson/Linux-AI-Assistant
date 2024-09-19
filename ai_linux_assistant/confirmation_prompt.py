@@ -5,7 +5,7 @@ import shlex
 class ConfirmationPrompt:
     def confirm(self, command):
         # Basic safety check to prevent execution of dangerous commands
-        dangerous_commands = ['rm', 'shutdown', 'reboot', ':(){ :|:& };:', 'mkfs', 'dd', '>:']
+        dangerous_commands = [] # List the commands you do not want to be executed in '' separated by , in the square brackets
 
         tokens = shlex.split(command)
         if any(dc in tokens for dc in dangerous_commands):
