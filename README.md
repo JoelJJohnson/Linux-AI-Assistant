@@ -47,9 +47,9 @@ AI Linux Assistant is a Python-based tool that uses OpenAI's API to assist users
 ## Usage
 
 1. **Running the Assistant via Python**:
-   You can run the AI Linux Assistant directly by executing the main script:
+   You can run the AI Linux Assistant from the root directory by executing the following script:
    ```bash
-   python main.py
+   python -m ai_linux_assistant
    ```
 
    The assistant will prompt you to input an English instruction and will return the equivalent Linux command.
